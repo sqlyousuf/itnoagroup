@@ -50,18 +50,11 @@ svg {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.85rem;
-  font-weight: 700;
-  font-size: 1.1rem;
 }
 
 .logo-image {
-  height: 2.2rem;
+  height: 3.2rem;
   width: auto;
-}
-
-.brand span {
-  display: inline-block;
 }
 
 .site-nav {
