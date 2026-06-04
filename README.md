@@ -1,20 +1,20 @@
 # Itnoa Group Inc Website
 
-This repository contains a GitHub Pages-ready static website for Itnoa Group Inc, a construction and general contracting business in Spring, Texas.
+This repository contains a GitHub Pages-ready static website for Itnoa Group Inc, an IT solutions and technology services company.
 
 ## What was added
 
-- `index.html` — construction business website with service sections and contact details
+- `index.html` — technology company site with services, case studies, and contact details
 - `styles.css` — site styling and responsive layout
 - `script.js` — mobile menu toggle behavior
-- `CNAME` — placeholder for your custom domain
+- `CNAME` — custom domain mapping
 
 ## How to use
 
 1. Edit the website content directly in this repo.
 2. Commit and push your changes to the `main` branch.
 3. Open the repository settings on GitHub and enable GitHub Pages using the `main` branch.
-4. Replace `yourdomain.com` in `CNAME` with your actual Namecheap domain when ready.
+4. Replace the value in `CNAME` with your actual domain when ready.
 
 ## Deploy with Namecheap domain
 
@@ -30,6 +30,6 @@ This repository contains a GitHub Pages-ready static website for Itnoa Group Inc
 
 ## Next steps
 
-- Add your logo, images, and any project photos.
-- Replace placeholder content with real service details.
-- If you want, I can also build a second page for testimonials, a gallery, or a project list.
+- Add your logo, team photos, and project case studies.
+- Replace placeholder content with detailed service pages and pricing.
+- Ask me to add a portfolio page, blog, or contact form integration.
