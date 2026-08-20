@@ -1,13 +1,15 @@
 # Itnoa Group Inc Website
 
-This repository contains a GitHub Pages-ready static website for Itnoa Group Inc, a construction and general contracting business in Spring, Texas.
+This repository contains a GitHub Pages-ready static website for Itnoa Group Inc, a technology company helping businesses grow through custom software, cloud infrastructure, cybersecurity, data & AI, IT consulting, and managed IT support.
 
-## What was added
+## What's included
 
-- `index.html` — construction business website with service sections and contact details
-- `styles.css` — site styling and responsive layout
-- `script.js` — mobile menu toggle behavior
-- `CNAME` — placeholder for your custom domain
+- `index.html` — technology company website with services, about, process, capabilities, and contact sections
+- `styles.css` — dark, modern site styling and responsive layout
+- `script.js` — mobile menu toggle, sticky header, smooth scroll, and scroll-reveal animations
+- `logo.svg` — header logo used across the site
+- `itnoa_construction_logo.svg` — legacy logo asset, kept in the repo but not referenced by the site
+- `CNAME` — custom domain configuration for GitHub Pages
 
 ## How to use
 
@@ -30,6 +32,6 @@ This repository contains a GitHub Pages-ready static website for Itnoa Group Inc
 
 ## Next steps
 
-- Add your logo, images, and any project photos.
-- Replace placeholder content with real service details.
-- If you want, I can also build a second page for testimonials, a gallery, or a project list.
+- Add real project case studies and client work to the Work section.
+- Swap in additional imagery or a photo library as the company grows.
+- If you want, a second page for case studies, careers, or a blog can be added later.

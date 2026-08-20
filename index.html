@@ -3,83 +3,175 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Itnoa Group Inc | Construction & General Contracting</title>
+    <title>Itnoa Group Inc | Technology Solutions for Growing Businesses</title>
     <meta
       name="description"
-      content="Itnoa Group Inc is a Spring, Texas construction company offering general contracting, renovation, and commercial construction services."
+      content="Itnoa Group Inc is a technology company helping businesses grow with custom software, cloud infrastructure, cybersecurity, data & AI, IT consulting, and managed IT support."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="site-header">
       <div class="container header-inner">
         <a href="#home" class="brand">
           <img src="logo.svg" alt="Itnoa Group Inc logo" class="logo-image" />
           <span>Itnoa Group Inc</span>
         </a>
-        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
-        <nav class="site-nav">
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+        </button>
+        <nav class="site-nav" id="site-nav">
           <a href="#home">Home</a>
           <a href="#services">Services</a>
           <a href="#about">About</a>
-          <a href="#portfolio">Projects</a>
+          <a href="#work">Work</a>
           <a href="#contact">Contact</a>
+          <a href="#contact" class="nav-cta">Get a Consultation</a>
         </nav>
       </div>
     </header>
 
-    <main>
+    <main id="main">
       <section id="home" class="hero-section">
+        <div class="hero-bg" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&amp;w=1600&amp;auto=format&amp;fit=crop"
+            alt=""
+            loading="eager"
+          />
+          <div class="hero-bg-overlay"></div>
+          <div class="hero-grid-pattern"></div>
+        </div>
         <div class="container hero-content">
-          <div>
-            <p class="eyebrow">Built for strength and reliability</p>
-            <h1>Trusted construction services for Texas homes and businesses.</h1>
-            <p>
-              Itnoa Group Inc delivers quality general contracting, renovation,
-              and commercial construction work across Spring, Texas.
+          <div class="reveal">
+            <p class="eyebrow">Technology partner for modern business</p>
+            <h1>We engineer <span class="text-gradient">technology</span> that moves your business forward.</h1>
+            <p class="hero-lede">
+              Itnoa Group Inc helps ambitious companies design, build, and run the software,
+              cloud, and data systems behind real growth &mdash; from strategy through
+              long-term support.
             </p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="#contact">Schedule a Consultation</a>
-              <a class="btn btn-secondary" href="#services">View Services</a>
+              <a class="btn btn-primary" href="#contact">Get a Consultation</a>
+              <a class="btn btn-secondary" href="#services">Explore Services</a>
             </div>
-          </div>
-          <div class="hero-image">
-            <div class="hero-card">
-              <h2>Local builders with a commitment to quality.</h2>
-              <p>
-                From remodeling to new construction, our experienced team
-                delivers safe, dependable projects that stand the test of time.
-              </p>
+            <div class="hero-trust">
+              <div class="hero-trust-item">
+                <span class="hero-trust-number">10+</span>
+                <span class="hero-trust-label">Years building technology</span>
+              </div>
+              <div class="hero-trust-item">
+                <span class="hero-trust-number">50+</span>
+                <span class="hero-trust-label">Businesses served</span>
+              </div>
+              <div class="hero-trust-item">
+                <span class="hero-trust-number">24/7</span>
+                <span class="hero-trust-label">Managed support</span>
+              </div>
             </div>
           </div>
         </div>
+        <div class="hero-scroll-cue" aria-hidden="true"><span></span></div>
       </section>
 
       <section id="services" class="section services-section">
-        <div class="container section-header">
-          <p class="eyebrow">Our expertise</p>
-          <h2>Construction services you can count on</h2>
+        <div class="container section-header reveal">
+          <p class="eyebrow">What we do</p>
+          <h2>Full-stack technology services, under one roof</h2>
+          <p class="section-lede">
+            From first line of code to day-two operations, our team plugs in wherever
+            your business needs technical depth.
+          </p>
         </div>
-        <div class="container grid grid-3">
-          <article class="card">
-            <h3>General Contracting</h3>
+        <div class="container grid grid-3 services-grid">
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 4L2 12L8 20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 4L22 12L16 20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.5 3L10.5 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <h3>Custom Software Development</h3>
             <p>
-              Comprehensive project management for residential and commercial
-              construction from start to finish.
+              Web, mobile, and enterprise applications engineered around your workflows
+              &mdash; built to scale and easy to maintain.
             </p>
           </article>
-          <article class="card">
-            <h3>Home Renovations</h3>
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 18H17C19.2091 18 21 16.2091 21 14C21 12.0272 19.5776 10.3866 17.6803 10.0567C17.4064 7.16826 14.9657 5 12 5C9.03432 5 6.59362 7.16826 6.31967 10.0567C4.42237 10.3866 3 12.0272 3 14C3 16.2091 4.79086 18 7 18Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <h3>Cloud &amp; Infrastructure</h3>
             <p>
-              Kitchen, bath, and interior remodels designed to improve comfort
-              and increase property value.
+              Cloud architecture, migrations, and DevOps automation that keep systems
+              fast, resilient, and cost-efficient.
             </p>
           </article>
-          <article class="card">
-            <h3>Commercial Builds</h3>
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 3L20 6.5V11C20 15.9706 16.4183 20.4 12 21.5C7.58172 20.4 4 15.9706 4 11V6.5L12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                <path d="M9 12L11 14L15.5 9.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <h3>Cybersecurity Solutions</h3>
             <p>
-              Professional construction services for offices, retail spaces,
-              and industrial facilities in Spring, Texas.
+              Risk assessments, monitoring, and hardened defenses that protect your
+              data, customers, and reputation.
+            </p>
+          </article>
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 19V13M4 13V5H8V13M4 13H8M11 19V9M11 9H15V19M11 9V5M15 19V15H20V19H15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <h3>Data &amp; AI Analytics</h3>
+            <p>
+              Data platforms, dashboards, and applied AI that turn information into
+              decisions you can act on.
+            </p>
+          </article>
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.6"/>
+                <path d="M19.4 15A1.65 1.65 0 0018 17.09 1.65 1.65 0 0016.09 18 1.65 1.65 0 0015 19.4 1.65 1.65 0 0013.09 18 1.65 1.65 0 0012 19.4 1.65 1.65 0 0010.91 18 1.65 1.65 0 009 19.4 1.65 1.65 0 007.91 18 1.65 1.65 0 006 17.09 1.65 1.65 0 004.6 15" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+                <path d="M12 3V5M12 19V21M3 12H5M19 12H21M5.6 5.6L7 7M17 17L18.4 18.4M18.4 5.6L17 7M7 17L5.6 18.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <h3>IT Consulting &amp; Strategy</h3>
+            <p>
+              Technology roadmaps and hands-on advisory that align IT investment with
+              your business goals.
+            </p>
+          </article>
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="4" width="18" height="12" rx="2" stroke="currentColor" stroke-width="1.6"/>
+                <path d="M8 20H16M12 16V20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M7 9L9.5 11L7 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 13H16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <h3>Managed IT Support</h3>
+            <p>
+              Proactive monitoring, help desk, and infrastructure management so your
+              team stays focused on the work that matters.
             </p>
           </article>
         </div>
@@ -87,62 +179,155 @@
 
       <section id="about" class="section about-section">
         <div class="container section-split">
-          <div>
+          <div class="reveal">
             <p class="eyebrow">About Itnoa Group Inc</p>
-            <h2>Construction services anchored in quality and accountability.</h2>
+            <h2>A technology partner invested in your growth.</h2>
             <p>
-              Itnoa Group Inc is a Spring, Texas-based construction company
-              dedicated to delivering safe, reliable, and efficient building
-              projects for homeowners and business owners.
+              Itnoa Group Inc began as a hands-on contracting business built on a simple
+              principle: show up, do the work right, and stand behind it. We bring that
+              same discipline to technology &mdash; helping businesses of every size
+              plan, build, and operate the systems that power their day-to-day.
+            </p>
+            <p>
+              Whether you need a single application built or a full technology
+              partner for the long haul, our team works alongside yours to deliver
+              solutions that are secure, scalable, and genuinely useful.
             </p>
             <ul class="features-list">
-              <li>Local construction expertise serving Spring, Texas</li>
-              <li>Clear communication, on-time delivery, and strong workmanship</li>
-              <li>Projects ranging from renovations to full commercial builds</li>
+              <li>Senior engineers and consultants, not just project managers</li>
+              <li>Clear communication and transparent, milestone-based delivery</li>
+              <li>Solutions built to scale with your business, not around it</li>
             </ul>
           </div>
-          <div class="about-card">
-            <h3>Experienced construction teamwork</h3>
-            <p>
-              Our team handles planning, scheduling, and execution so your project
-              moves smoothly from design through completion.
-            </p>
+          <div class="about-media reveal">
+            <img
+              src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&amp;w=1200&amp;auto=format&amp;fit=crop"
+              alt="Technology team collaborating around laptops on a project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div class="container stats-row reveal">
+          <div class="stat">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Years in business</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Clients served</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">120+</span>
+            <span class="stat-label">Projects delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">99.9%</span>
+            <span class="stat-label">Support SLA uptime</span>
           </div>
         </div>
       </section>
 
-      <section id="portfolio" class="section portfolio-section">
-        <div class="container section-header">
-          <p class="eyebrow">Projects</p>
-          <h2>Construction work built for lasting performance</h2>
+      <section id="process" class="section process-section">
+        <div class="container section-header reveal">
+          <p class="eyebrow">How we work</p>
+          <h2>A proven process, from idea to ongoing support</h2>
         </div>
-        <div class="container grid grid-2">
-          <article class="portfolio-card">
-            <h3>Residential Renovations</h3>
-            <p>
-              Renovation projects that refresh homes while improving functionality
-              and value.
-            </p>
+        <div class="container process-steps">
+          <div class="process-step reveal">
+            <span class="process-step-number">01</span>
+            <h3>Discover</h3>
+            <p>We learn your business, goals, and existing systems to define the right scope.</p>
+          </div>
+          <div class="process-step reveal">
+            <span class="process-step-number">02</span>
+            <h3>Design</h3>
+            <p>We architect a solution &mdash; software, cloud, or data &mdash; built for your scale.</p>
+          </div>
+          <div class="process-step reveal">
+            <span class="process-step-number">03</span>
+            <h3>Build</h3>
+            <p>Our engineers develop, test, and ship in transparent, milestone-based sprints.</p>
+          </div>
+          <div class="process-step reveal">
+            <span class="process-step-number">04</span>
+            <h3>Support</h3>
+            <p>We monitor, maintain, and evolve your systems long after launch.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section work-section">
+        <div class="container section-header reveal">
+          <p class="eyebrow">Why businesses choose us</p>
+          <h2>Capabilities built for real-world results</h2>
+          <p class="section-lede">
+            We combine engineering depth with operational reliability &mdash; the
+            infrastructure, security, and data capabilities modern businesses depend on.
+          </p>
+        </div>
+        <div class="container grid grid-3 work-grid">
+          <article class="portfolio-card reveal">
+            <div class="portfolio-media">
+              <img
+                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&amp;w=800&amp;auto=format&amp;fit=crop"
+                alt="Developer writing code on a laptop in a dark workspace"
+                loading="lazy"
+              />
+            </div>
+            <h3>Application Engineering</h3>
+            <p>Custom platforms and integrations built with modern, maintainable code.</p>
           </article>
-          <article class="portfolio-card">
-            <h3>Commercial Construction</h3>
-            <p>
-              Professional construction services for retail, office, and mixed-use spaces.
-            </p>
+          <article class="portfolio-card reveal">
+            <div class="portfolio-media">
+              <img
+                src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&amp;w=800&amp;auto=format&amp;fit=crop"
+                alt="Server racks in a modern data center"
+                loading="lazy"
+              />
+            </div>
+            <h3>Cloud &amp; Infrastructure</h3>
+            <p>Reliable, secure infrastructure designed to scale with demand.</p>
           </article>
+          <article class="portfolio-card reveal">
+            <div class="portfolio-media">
+              <img
+                src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?q=80&amp;w=800&amp;auto=format&amp;fit=crop"
+                alt="Abstract visualization of a digital data network"
+                loading="lazy"
+              />
+            </div>
+            <h3>Data &amp; AI</h3>
+            <p>Analytics and applied AI that surface insight from your data.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-banner">
+        <div class="cta-bg" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&amp;w=1600&amp;auto=format&amp;fit=crop"
+            alt=""
+            loading="lazy"
+          />
+          <div class="cta-bg-overlay"></div>
+        </div>
+        <div class="container cta-content reveal">
+          <h2>Ready to build something that lasts?</h2>
+          <p>Let&rsquo;s talk about where technology can take your business next.</p>
+          <a class="btn btn-primary" href="#contact">Get a Consultation</a>
         </div>
       </section>
 
       <section id="contact" class="section contact-section">
-        <div class="container contact-card">
+        <div class="container contact-card reveal">
           <div>
             <p class="eyebrow">Contact</p>
-            <h2>Ready to discuss your next construction project?</h2>
+            <h2>Let&rsquo;s discuss your next technology project</h2>
             <p>
-              Reach out to Itnoa Group Inc for a free consultation. We serve Spring,
-              Texas and nearby communities with trustworthy construction services.
+              Reach out to Itnoa Group Inc for a free consultation. We help businesses
+              across Spring, Texas and beyond plan and build technology that works.
             </p>
-            <p>
+            <p class="contact-details">
               <strong>Address:</strong> 21119 Rhodes Road, Spring, Texas 77388<br />
               <strong>Phone:</strong> <a href="tel:+18329197030">832-919-7030</a><br />
               <strong>Email:</strong> <a href="mailto:info@itnoagroup.com">info@itnoagroup.com</a>
@@ -155,7 +340,18 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p>© 2026 Itnoa Group Inc. General contracting and construction services in Spring, Texas.</p>
+        <div class="footer-brand">
+          <img src="logo.svg" alt="Itnoa Group Inc logo" class="logo-image" />
+          <span>Itnoa Group Inc</span>
+        </div>
+        <nav class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <p class="footer-copy">&copy; 2026 Itnoa Group Inc. Technology solutions for growing businesses.</p>
       </div>
     </footer>
 
