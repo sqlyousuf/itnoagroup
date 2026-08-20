@@ -1,0 +1,23 @@
+<svg width="300" height="60" viewBox="0 0 300 60" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Itnoa Group Inc</title>
+  <desc>Network-node mark beside the Itnoa Group wordmark</desc>
+  <defs>
+    <linearGradient id="itnoaGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="55%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="56" height="56" rx="15" fill="url(#itnoaGrad)" />
+
+  <line x1="21" y1="22" x2="30" y2="40" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" opacity="0.92" />
+  <line x1="41" y1="19" x2="30" y2="40" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" opacity="0.92" />
+  <line x1="21" y1="22" x2="41" y2="19" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" opacity="0.65" />
+  <circle cx="21" cy="22" r="4.2" fill="#ffffff" />
+  <circle cx="41" cy="19" r="3.4" fill="#ffffff" />
+  <circle cx="30" cy="40" r="5.4" fill="#ffffff" />
+
+  <text x="76" y="34" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-weight="800" font-size="27" letter-spacing="0.5" fill="#f3f6ff">ITNOA</text>
+  <text x="76" y="50" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-weight="700" font-size="12" letter-spacing="5" fill="#22d3ee">GROUP</text>
+</svg>
