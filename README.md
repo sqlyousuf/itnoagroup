@@ -7,8 +7,8 @@ This repository contains a GitHub Pages-ready static website for Itnoa Group Inc
 - `index.html` — technology company website with services, about, process, capabilities, and contact sections
 - `styles.css` — dark, modern site styling and responsive layout
 - `script.js` — mobile menu toggle, sticky header, smooth scroll, and scroll-reveal animations
-- `logo.svg` — header logo used across the site
-- `itnoa_construction_logo.svg` — legacy logo asset, kept in the repo but not referenced by the site
+- `itnoa logo white.JPG` — header/footer logo used across the site
+- `itnoa logo.JPG`, `logo.svg`, `itnoa_construction_logo.svg` — legacy/alternate logo assets, kept in the repo but not referenced by the site
 - `CNAME` — custom domain configuration for GitHub Pages
 
 ## How to use
@@ -16,7 +16,7 @@ This repository contains a GitHub Pages-ready static website for Itnoa Group Inc
 1. Edit the website content directly in this repo.
 2. Commit and push your changes to the `main` branch.
 3. Open the repository settings on GitHub and enable GitHub Pages using the `main` branch.
-4. Replace `yourdomain.com` in `CNAME` with your actual Namecheap domain when ready.
+4. Replace the value in `CNAME` with your actual domain when ready.
 
 ## Deploy with Namecheap domain
 
