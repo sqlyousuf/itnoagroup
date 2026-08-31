@@ -1,14 +1,14 @@
 # Itnoa Group Inc Website
 
-This repository contains a GitHub Pages-ready static website for Itnoa Group Inc, a technology company helping businesses grow through custom software, cloud infrastructure, cybersecurity, data & AI, IT consulting, and managed IT support.
+This repository contains a GitHub Pages-ready static website for Itnoa Group Inc, a construction company delivering new home construction and kitchen, bath, and whole-home remodeling for clients in Spring, Texas and beyond.
 
 ## What's included
 
-- `index.html` — technology company website with services, about, process, capabilities, and contact sections
+- `index.html` — construction company website with services, about, process, work, and contact sections
 - `styles.css` — dark, modern site styling and responsive layout
 - `script.js` — mobile menu toggle, sticky header, smooth scroll, and scroll-reveal animations
-- `itnoa logo white.JPG` — header/footer logo used across the site
-- `itnoa logo.JPG`, `logo.svg`, `itnoa_construction_logo.svg` — legacy/alternate logo assets, kept in the repo but not referenced by the site
+- `itnoa-logo-construction.svg` — header/footer logo used across the site
+- `itnoa logo white.JPG`, `itnoa logo.JPG`, `logo.svg`, `itnoa-logo-tech.svg`, `itnoa_construction_logo.svg` — legacy/alternate logo assets, kept in the repo but not referenced by the site
 - `CNAME` — custom domain configuration for GitHub Pages
 
 ## How to use
