@@ -2,13 +2,15 @@
 
 This repository contains a GitHub Pages-ready static website for Itnoa Group Inc, a construction company delivering new home construction and kitchen, bath, and whole-home remodeling for clients in Spring, Texas and beyond.
 
+The site uses a cinematic, editorial art direction — near-black canvas, brass accent, Fraunces/Inter type pairing, duotone photography, scroll-choreographed reveals, parallax, and a custom cursor — built with vanilla HTML/CSS/JS plus GSAP, ScrollTrigger, and Lenis (loaded from CDN). Every animation is progressive enhancement: the page is fully readable with JS disabled, CDN scripts blocked, or `prefers-reduced-motion` set.
+
 ## What's included
 
-- `index.html` — construction company website with services, about, process, work, and contact sections
-- `styles.css` — dark, modern site styling and responsive layout
-- `script.js` — mobile menu toggle, sticky header, smooth scroll, and scroll-reveal animations
-- `itnoa-logo-construction.svg` — header/footer logo used across the site
-- `itnoa logo white.JPG`, `itnoa logo.JPG`, `logo.svg`, `itnoa-logo-tech.svg`, `itnoa_construction_logo.svg` — legacy/alternate logo assets, kept in the repo but not referenced by the site
+- `index.html` — construction company website with hero, services, about, process, work, CTA, and contact sections
+- `styles.css` — cinematic dark/brass design system, layout, and responsive rules
+- `script.js` — preloader, mobile menu, sticky header, Lenis smooth scroll, GSAP scroll reveals/parallax/counters, custom cursor, magnetic buttons
+- `itnoa-logo-luxury.svg` — header/footer logo used across the site
+- `itnoa logo white.JPG`, `itnoa logo.JPG`, `logo.svg`, `itnoa-logo-tech.svg`, `itnoa-logo-construction.svg`, `itnoa_construction_logo.svg` — legacy/alternate logo assets, kept in the repo but not referenced by the site
 - `CNAME` — custom domain configuration for GitHub Pages
 
 ## How to use

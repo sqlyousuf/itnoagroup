@@ -6,23 +6,74 @@
     <title>Itnoa Group Inc | New Construction &amp; Remodeling Contractor</title>
     <meta
       name="description"
-      content="Itnoa Group Inc is a construction company building new homes and delivering kitchen, bath, and whole-home remodeling for clients in Spring, Texas and beyond."
+      content="Itnoa Group Inc is a licensed construction company building new homes and delivering kitchen, bath, and whole-home remodeling for clients in Spring, Texas and beyond."
     />
+    <meta name="theme-color" content="#0b0c0e" />
+    <link rel="canonical" href="https://itnoagroup.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Itnoa Group Inc" />
+    <meta property="og:title" content="Itnoa Group Inc | New Construction &amp; Remodeling Contractor" />
+    <meta
+      property="og:description"
+      content="Licensed general contractor delivering new home construction and kitchen, bath, and whole-home remodeling in Spring, Texas and beyond."
+    />
+    <meta property="og:url" content="https://itnoagroup.com/" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&amp;w=1200&amp;auto=format&amp;fit=crop" />
+    <meta name="twitter:card" content="summary_large_image" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.css" />
     <link rel="stylesheet" href="styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "GeneralContractor",
+        "name": "Itnoa Group Inc",
+        "description": "Licensed general contractor delivering new home construction and kitchen, bath, and whole-home remodeling.",
+        "url": "https://itnoagroup.com/",
+        "telephone": "+1-832-919-7030",
+        "email": "info@itnoagroup.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "21119 Rhodes Road",
+          "addressLocality": "Spring",
+          "addressRegion": "TX",
+          "postalCode": "77388",
+          "addressCountry": "US"
+        }
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
+    <div class="noise-overlay" aria-hidden="true"></div>
+    <div class="cursor" id="cursor" aria-hidden="true">
+      <span class="cursor-dot"></span>
+      <span class="cursor-ring"></span>
+    </div>
+
+    <div class="preloader" id="preloader" aria-hidden="true">
+      <div class="preloader-inner">
+        <svg class="preloader-mark" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 40L28 14L48 40" stroke="#c69a52" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <span class="preloader-label">Itnoa Group</span>
+        <span class="preloader-count" id="preloaderCount">0%</span>
+      </div>
+    </div>
+
     <header class="site-header" id="site-header">
       <div class="container header-inner">
         <a href="#home" class="brand">
-          <img src="itnoa-logo-construction.svg" alt="Itnoa Group Inc logo" class="logo-image" />
+          <img src="itnoa-logo-luxury.svg" alt="Itnoa Group Inc logo" class="logo-image" />
         </a>
         <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
           <span class="menu-toggle-bar"></span>
@@ -35,7 +86,7 @@
           <a href="#about">About</a>
           <a href="#work">Work</a>
           <a href="#contact">Contact</a>
-          <a href="#contact" class="nav-cta">Get a Free Estimate</a>
+          <a href="#contact" class="nav-cta" data-magnetic>Get a Free Estimate</a>
         </nav>
       </div>
     </header>
@@ -43,136 +94,139 @@
     <main id="main">
       <section id="home" class="hero-section">
         <div class="hero-bg" aria-hidden="true">
-          <img
-            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&amp;w=1600&amp;auto=format&amp;fit=crop"
-            alt=""
-            loading="eager"
-          />
+          <div class="hero-bg-frame" data-parallax data-parallax-strength="18">
+            <img
+              src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&amp;w=1800&amp;auto=format&amp;fit=crop"
+              alt=""
+              loading="eager"
+            />
+          </div>
+          <div class="hero-bg-duotone"></div>
           <div class="hero-bg-overlay"></div>
-          <div class="hero-grid-pattern"></div>
         </div>
         <div class="container hero-content">
-          <div class="reveal">
-            <p class="eyebrow">Construction partner for new builds &amp; remodels</p>
-            <h1>We build and remodel spaces that <span class="text-gradient">last</span>.</h1>
-            <p class="hero-lede">
-              Itnoa Group Inc is a licensed general contractor delivering new home
-              construction and kitchen, bath, and whole-home remodeling &mdash; from
-              first sketch through final walkthrough.
-            </p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="#contact">Get a Free Estimate</a>
-              <a class="btn btn-secondary" href="#work">View Our Work</a>
+          <p class="eyebrow hero-eyebrow">Construction &amp; Remodeling &mdash; Spring, Texas</p>
+          <h1 class="hero-heading">
+            <span class="line-mask"><span class="line-inner">We build spaces</span></span>
+            <span class="line-mask"><span class="line-inner">that <em>last</em>.</span></span>
+          </h1>
+          <p class="hero-lede line-mask"><span class="line-inner">
+            Itnoa Group Inc is a licensed general contractor delivering new home
+            construction and kitchen, bath, and whole-home remodeling &mdash; from
+            first sketch through final walkthrough.
+          </span></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact" data-magnetic>Get a Free Estimate</a>
+            <a class="btn btn-secondary" href="#work" data-magnetic>View Our Work</a>
+          </div>
+          <div class="hero-trust">
+            <div class="hero-trust-item">
+              <span class="hero-trust-number" data-count="10" data-suffix="+">10+</span>
+              <span class="hero-trust-label">Years building &amp; remodeling</span>
             </div>
-            <div class="hero-trust">
-              <div class="hero-trust-item">
-                <span class="hero-trust-number">10+</span>
-                <span class="hero-trust-label">Years building &amp; remodeling</span>
-              </div>
-              <div class="hero-trust-item">
-                <span class="hero-trust-number">50+</span>
-                <span class="hero-trust-label">Homes &amp; projects completed</span>
-              </div>
-              <div class="hero-trust-item">
-                <span class="hero-trust-number">100%</span>
-                <span class="hero-trust-label">Licensed &amp; insured</span>
-              </div>
+            <div class="hero-trust-item">
+              <span class="hero-trust-number" data-count="50" data-suffix="+">50+</span>
+              <span class="hero-trust-label">Homes &amp; projects completed</span>
+            </div>
+            <div class="hero-trust-item">
+              <span class="hero-trust-number" data-count="100" data-suffix="%">100%</span>
+              <span class="hero-trust-label">Licensed &amp; insured</span>
             </div>
           </div>
         </div>
-        <div class="hero-scroll-cue" aria-hidden="true"><span></span></div>
+        <div class="hero-scroll-cue" aria-hidden="true"><span></span> Scroll</div>
       </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>New Construction</span><span class="marquee-dot">&bull;</span>
+          <span>Whole-Home Remodeling</span><span class="marquee-dot">&bull;</span>
+          <span>Kitchen &amp; Bath</span><span class="marquee-dot">&bull;</span>
+          <span>Design-Build</span><span class="marquee-dot">&bull;</span>
+          <span>General Contracting</span><span class="marquee-dot">&bull;</span>
+          <span>New Construction</span><span class="marquee-dot">&bull;</span>
+          <span>Whole-Home Remodeling</span><span class="marquee-dot">&bull;</span>
+          <span>Kitchen &amp; Bath</span><span class="marquee-dot">&bull;</span>
+          <span>Design-Build</span><span class="marquee-dot">&bull;</span>
+          <span>General Contracting</span><span class="marquee-dot">&bull;</span>
+        </div>
+      </div>
 
       <section id="services" class="section services-section">
         <div class="container section-header reveal">
           <p class="eyebrow">What we do</p>
-          <h2>New construction &amp; remodeling, under one roof</h2>
+          <h2>New construction &amp; remodeling,<br />under one roof</h2>
           <p class="section-lede">
             From breaking ground on a new home to reimagining a single room, our crews
             bring the trades expertise your project needs from start to finish.
           </p>
         </div>
-        <div class="container grid grid-3 services-grid">
-          <article class="card reveal">
-            <span class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 11L12 4L20 11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M6 10V20H18V10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M10 20V15H14V20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
+        <div class="container services-list">
+          <article class="service-row reveal" data-thumb="https://images.unsplash.com/photo-1523217582562-09d0def993a6?q=80&amp;w=800&amp;auto=format&amp;fit=crop">
+            <span class="service-number">01</span>
+            <div class="service-body">
+              <h3>New Home Construction</h3>
+              <p>Custom and spec homes built from the foundation up, engineered for quality craftsmanship and long-term durability.</p>
+            </div>
+            <span class="service-thumb" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?q=80&amp;w=800&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
             </span>
-            <h3>New Home Construction</h3>
-            <p>
-              Custom and spec homes built from the foundation up, engineered for
-              quality craftsmanship and long-term durability.
-            </p>
+            <span class="service-arrow" aria-hidden="true">&rarr;</span>
           </article>
-          <article class="card reveal">
-            <span class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="4" y="4" width="10" height="6" rx="1" stroke="currentColor" stroke-width="1.6"/>
-                <path d="M9 10V16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
-                <path d="M9 16L16 20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
-              </svg>
+          <article class="service-row reveal" data-thumb="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&amp;w=800&amp;auto=format&amp;fit=crop">
+            <span class="service-number">02</span>
+            <div class="service-body">
+              <h3>Home Additions &amp; Remodeling</h3>
+              <p>Room additions, whole-home renovations, and structural upgrades that expand and modernize the way you live.</p>
+            </div>
+            <span class="service-thumb" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&amp;w=800&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
             </span>
-            <h3>Home Additions &amp; Remodeling</h3>
-            <p>
-              Room additions, whole-home renovations, and structural upgrades that
-              expand and modernize the way you live.
-            </p>
+            <span class="service-arrow" aria-hidden="true">&rarr;</span>
           </article>
-          <article class="card reveal">
-            <span class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 3C12 3 6 10 6 14.5C6 18 8.7 20 12 20C15.3 20 18 18 18 14.5C18 10 12 3 12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
-              </svg>
+          <article class="service-row reveal" data-thumb="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?q=80&amp;w=800&amp;auto=format&amp;fit=crop">
+            <span class="service-number">03</span>
+            <div class="service-body">
+              <h3>Kitchen &amp; Bath Remodeling</h3>
+              <p>Full kitchen and bathroom transformations &mdash; cabinetry, counters, fixtures, and layouts redesigned for daily life.</p>
+            </div>
+            <span class="service-thumb" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?q=80&amp;w=800&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
             </span>
-            <h3>Kitchen &amp; Bath Remodeling</h3>
-            <p>
-              Full kitchen and bathroom transformations &mdash; cabinetry, counters,
-              fixtures, and layouts redesigned for daily life.
-            </p>
+            <span class="service-arrow" aria-hidden="true">&rarr;</span>
           </article>
-          <article class="card reveal">
-            <span class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="5" y="3" width="14" height="18" rx="1" stroke="currentColor" stroke-width="1.6"/>
-                <path d="M8.5 7H10.5M13.5 7H15.5M8.5 11H10.5M13.5 11H15.5M8.5 15H10.5M13.5 15H15.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
-              </svg>
+          <article class="service-row reveal" data-thumb="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&amp;w=800&amp;auto=format&amp;fit=crop">
+            <span class="service-number">04</span>
+            <div class="service-body">
+              <h3>Commercial Construction</h3>
+              <p>Build-outs and ground-up commercial projects delivered on schedule and on budget for growing businesses.</p>
+            </div>
+            <span class="service-thumb" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&amp;w=800&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
             </span>
-            <h3>Commercial Construction</h3>
-            <p>
-              Build-outs and ground-up commercial projects delivered on schedule and
-              on budget for growing businesses.
-            </p>
+            <span class="service-arrow" aria-hidden="true">&rarr;</span>
           </article>
-          <article class="card reveal">
-            <span class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 20L14 10L18 14L8 20H4V16Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
-                <path d="M13.5 10.5L17.5 14.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
-                <path d="M16 8L19 11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
-              </svg>
+          <article class="service-row reveal" data-thumb="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&amp;w=800&amp;auto=format&amp;fit=crop">
+            <span class="service-number">05</span>
+            <div class="service-body">
+              <h3>Design-Build Services</h3>
+              <p>Architectural planning, permitting, and design guidance handled alongside construction for a single point of accountability.</p>
+            </div>
+            <span class="service-thumb" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&amp;w=800&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
             </span>
-            <h3>Design-Build Services</h3>
-            <p>
-              Architectural planning, permitting, and design guidance handled alongside
-              construction for a single point of accountability.
-            </p>
+            <span class="service-arrow" aria-hidden="true">&rarr;</span>
           </article>
-          <article class="card reveal">
-            <span class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="6" y="4" width="12" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/>
-                <rect x="9" y="2" width="6" height="4" rx="1" stroke="currentColor" stroke-width="1.6"/>
-                <path d="M9 12L11 14L15.5 9.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
+          <article class="service-row reveal" data-thumb="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&amp;w=800&amp;auto=format&amp;fit=crop">
+            <span class="service-number">06</span>
+            <div class="service-body">
+              <h3>General Contracting</h3>
+              <p>Licensed project management, trade coordination, and permitting so your build stays on schedule and code-compliant.</p>
+            </div>
+            <span class="service-thumb" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&amp;w=800&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
             </span>
-            <h3>General Contracting</h3>
-            <p>
-              Licensed project management, trade coordination, and permitting so your
-              build stays on schedule and code-compliant.
-            </p>
+            <span class="service-arrow" aria-hidden="true">&rarr;</span>
           </article>
         </div>
       </section>
@@ -200,28 +254,30 @@
             </ul>
           </div>
           <div class="about-media reveal">
-            <img
-              src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&amp;w=1200&amp;auto=format&amp;fit=crop"
-              alt="Contractor reviewing blueprints and construction plans at a job site"
-              loading="lazy"
-            />
+            <span class="about-media-clip" data-clip-reveal>
+              <img
+                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&amp;w=1200&amp;auto=format&amp;fit=crop"
+                alt="Contractor reviewing blueprints and construction plans at a job site"
+                loading="lazy"
+              />
+            </span>
           </div>
         </div>
         <div class="container stats-row reveal">
           <div class="stat">
-            <span class="stat-number">10+</span>
+            <span class="stat-number" data-count="10" data-suffix="+">10+</span>
             <span class="stat-label">Years in business</span>
           </div>
           <div class="stat">
-            <span class="stat-number">50+</span>
+            <span class="stat-number" data-count="50" data-suffix="+">50+</span>
             <span class="stat-label">Clients served</span>
           </div>
           <div class="stat">
-            <span class="stat-number">120+</span>
+            <span class="stat-number" data-count="120" data-suffix="+">120+</span>
             <span class="stat-label">Projects completed</span>
           </div>
           <div class="stat">
-            <span class="stat-number">100%</span>
+            <span class="stat-number" data-count="100" data-suffix="%">100%</span>
             <span class="stat-label">Licensed &amp; insured</span>
           </div>
         </div>
@@ -230,7 +286,7 @@
       <section id="process" class="section process-section">
         <div class="container section-header reveal">
           <p class="eyebrow">How we work</p>
-          <h2>A proven process, from consultation to final walkthrough</h2>
+          <h2>A proven process, from consultation<br />to final walkthrough</h2>
         </div>
         <div class="container process-steps">
           <div class="process-step reveal">
@@ -265,75 +321,100 @@
             the craftsmanship and scheduling discipline every build and remodel needs.
           </p>
         </div>
-        <div class="container grid grid-3 work-grid">
-          <article class="portfolio-card reveal">
-            <div class="portfolio-media">
-              <img
-                src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?q=80&amp;w=800&amp;auto=format&amp;fit=crop"
-                alt="Modern new-construction home exterior"
-                loading="lazy"
-              />
+        <div class="work-panels">
+          <article class="work-panel reveal">
+            <div class="work-panel-media">
+              <div class="work-panel-frame" data-parallax data-parallax-strength="10">
+                <img
+                  src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?q=80&amp;w=1400&amp;auto=format&amp;fit=crop"
+                  alt="Modern new-construction home exterior"
+                  loading="lazy"
+                />
+              </div>
             </div>
-            <h3>New Home Construction</h3>
-            <p>Custom builds engineered and finished to last for generations.</p>
+            <div class="container work-panel-caption">
+              <span class="work-panel-index">01</span>
+              <h3>New Home Construction</h3>
+              <p>Custom builds engineered and finished to last for generations.</p>
+            </div>
           </article>
-          <article class="portfolio-card reveal">
-            <div class="portfolio-media">
-              <img
-                src="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?q=80&amp;w=800&amp;auto=format&amp;fit=crop"
-                alt="Fully remodeled modern white kitchen"
-                loading="lazy"
-              />
+          <article class="work-panel work-panel-alt reveal">
+            <div class="work-panel-media">
+              <div class="work-panel-frame" data-parallax data-parallax-strength="10">
+                <img
+                  src="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?q=80&amp;w=1400&amp;auto=format&amp;fit=crop"
+                  alt="Fully remodeled modern white kitchen"
+                  loading="lazy"
+                />
+              </div>
             </div>
-            <h3>Kitchen &amp; Bath Remodels</h3>
-            <p>Complete renovations that modernize the rooms you use every day.</p>
+            <div class="container work-panel-caption">
+              <span class="work-panel-index">02</span>
+              <h3>Kitchen &amp; Bath Remodels</h3>
+              <p>Complete renovations that modernize the rooms you use every day.</p>
+            </div>
           </article>
-          <article class="portfolio-card reveal">
-            <div class="portfolio-media">
-              <img
-                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&amp;w=800&amp;auto=format&amp;fit=crop"
-                alt="Renovated open-concept living room interior"
-                loading="lazy"
-              />
+          <article class="work-panel reveal">
+            <div class="work-panel-media">
+              <div class="work-panel-frame" data-parallax data-parallax-strength="10">
+                <img
+                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&amp;w=1400&amp;auto=format&amp;fit=crop"
+                  alt="Renovated open-concept living room interior"
+                  loading="lazy"
+                />
+              </div>
             </div>
-            <h3>Additions &amp; Renovations</h3>
-            <p>Whole-home remodels and additions that expand how a space works.</p>
+            <div class="container work-panel-caption">
+              <span class="work-panel-index">03</span>
+              <h3>Additions &amp; Renovations</h3>
+              <p>Whole-home remodels and additions that expand how a space works.</p>
+            </div>
           </article>
         </div>
       </section>
 
       <section class="cta-banner">
         <div class="cta-bg" aria-hidden="true">
-          <img
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&amp;w=1600&amp;auto=format&amp;fit=crop"
-            alt=""
-            loading="lazy"
-          />
+          <div class="cta-bg-frame" data-parallax data-parallax-strength="16">
+            <img
+              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&amp;w=1800&amp;auto=format&amp;fit=crop"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+          <div class="cta-bg-duotone"></div>
           <div class="cta-bg-overlay"></div>
         </div>
         <div class="container cta-content reveal">
           <h2>Ready to build something that lasts?</h2>
           <p>Let&rsquo;s talk about your new construction or remodeling project.</p>
-          <a class="btn btn-primary" href="#contact">Get a Free Estimate</a>
+          <a class="btn btn-primary" href="#contact" data-magnetic>Get a Free Estimate</a>
         </div>
       </section>
 
       <section id="contact" class="section contact-section">
-        <div class="container contact-card reveal">
-          <div>
+        <span class="contact-bg-text" aria-hidden="true">Let&rsquo;s Build</span>
+        <div class="container contact-inner">
+          <div class="reveal">
             <p class="eyebrow">Contact</p>
-            <h2>Let&rsquo;s discuss your next build or remodel</h2>
+            <h2>Let&rsquo;s discuss your<br />next build or remodel</h2>
             <p>
               Reach out to Itnoa Group Inc for a free estimate. We help homeowners and
               businesses across Spring, Texas and beyond plan and build projects that last.
             </p>
-            <p class="contact-details">
-              <strong>Address:</strong> 21119 Rhodes Road, Spring, Texas 77388<br />
-              <strong>Phone:</strong> <a href="tel:+18329197030">832-919-7030</a><br />
-              <strong>Email:</strong> <a href="mailto:info@itnoagroup.com">info@itnoagroup.com</a>
-            </p>
           </div>
-          <a class="btn btn-primary" href="mailto:info@itnoagroup.com">Email Us</a>
+          <div class="contact-card reveal">
+            <p class="contact-details">
+              <strong>Address</strong><br />21119 Rhodes Road, Spring, Texas 77388
+            </p>
+            <p class="contact-details">
+              <strong>Phone</strong><br /><a href="tel:+18329197030">832-919-7030</a>
+            </p>
+            <p class="contact-details">
+              <strong>Email</strong><br /><a href="mailto:info@itnoagroup.com">info@itnoagroup.com</a>
+            </p>
+            <a class="btn btn-primary contact-cta" href="mailto:info@itnoagroup.com" data-magnetic>Email Us</a>
+          </div>
         </div>
       </section>
     </main>
@@ -341,7 +422,7 @@
     <footer class="site-footer">
       <div class="container footer-inner">
         <div class="footer-brand">
-          <img src="itnoa-logo-construction.svg" alt="Itnoa Group Inc logo" class="logo-image" />
+          <img src="itnoa-logo-luxury.svg" alt="Itnoa Group Inc logo" class="logo-image" />
         </div>
         <nav class="footer-nav">
           <a href="#home">Home</a>
@@ -350,10 +431,13 @@
           <a href="#work">Work</a>
           <a href="#contact">Contact</a>
         </nav>
-        <p class="footer-copy">&copy; 2026 Itnoa Group Inc. New construction &amp; remodeling contractor.</p>
+        <p class="footer-copy">&copy; 2026 Itnoa Group Inc. Licensed general contractor &mdash; Spring, TX.</p>
       </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

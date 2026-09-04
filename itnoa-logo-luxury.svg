@@ -1,0 +1,12 @@
+<svg width="230" height="44" viewBox="0 0 230 44" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Itnoa Group Inc</title>
+  <desc>Roofline mark beside the Itnoa Group wordmark</desc>
+
+  <path d="M4 26L20 8L36 26" stroke="#c69a52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <line x1="20" y1="8" x2="20" y2="2" stroke="#c69a52" stroke-width="2" stroke-linecap="round" />
+
+  <line x1="50" y1="4" x2="50" y2="40" stroke="#c69a52" stroke-opacity="0.4" stroke-width="1" />
+
+  <text x="64" y="27" font-family="Georgia, 'Times New Roman', serif" font-size="21" letter-spacing="1" fill="#f5efe4">Itnoa</text>
+  <text x="64" y="39" font-family="Arial, 'Segoe UI', sans-serif" font-weight="600" font-size="9.5" letter-spacing="3.5" fill="#c69a52">GROUP INC</text>
+</svg>
